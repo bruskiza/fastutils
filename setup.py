@@ -18,7 +18,7 @@ setup(
     keywords = "fastapi utils",
     url = "https://github.com/bruskiza/fastutils",
     packages=find_packages(),
-    long_description=read('README'),
+    long_description=read('README.md'),
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Topic :: Utilities",
