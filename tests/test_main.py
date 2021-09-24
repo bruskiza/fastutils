@@ -1,4 +1,4 @@
-from smartsutils import main
+from fastutils import main
 
 def test_main(event_loop):
     resp = event_loop.run_until_complete(main.root())

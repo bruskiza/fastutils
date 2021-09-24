@@ -9,15 +9,14 @@ def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(
-    name = "smartsutils",
+    name = "fastutils",
     version = "0.0.1",
     author = "Bruce McIntyre",
     author_email = "bruce.mcintyre@gmail.com",
-    description = ("An demonstration of how to create, document, and publish "
-                                   "to the cheese shop a5 pypi.org."),
+    description = ("Musings with Fast API"),
     license = "BSD",
-    keywords = "example documentation tutorial",
-    url = "http://packages.python.org/an_example_pypi_project",
+    keywords = "fastapi utils",
+    url = "https://github.com/bruskiza/fastutils",
     packages=find_packages(),
     long_description=read('README'),
     classifiers=[
