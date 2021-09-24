@@ -40,6 +40,8 @@ jobs:
         pipenv run pip install -e .
 
     - name: Test and Cover
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         pipenv run pytest --cov=fastutils tests/*
         pipenv run coveralls 
