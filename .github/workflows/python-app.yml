@@ -41,5 +41,5 @@ jobs:
 
     - name: Test and Cover
       run: |
-        pipenv pytest --cov=fastutils tests/*
-        pipenv COVERALLS_REPO_TOKEN=${{ secrets.GITHUB_TOKEN }} coveralls
+        pipenv run pytest --cov=fastutils tests/*
+        pipenv run COVERALLS_REPO_TOKEN=${{ secrets.GITHUB_TOKEN }} coveralls
