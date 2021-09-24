@@ -1,8 +1,10 @@
 from fastutils import main
 
+
 def test_main(event_loop):
     resp = event_loop.run_until_complete(main.root())
     assert resp is not None
+
 
 def test_ping(event_loop, fake_process):
     fake_process.register_subprocess(
@@ -10,6 +12,7 @@ def test_ping(event_loop, fake_process):
     )
     resp = event_loop.run_until_complete(main.ping())
     assert resp is not None
+
 
 def test_snmpwalk(event_loop, fake_process):
     fake_process.register_subprocess(
