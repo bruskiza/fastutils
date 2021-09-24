@@ -43,5 +43,5 @@ jobs:
       env:
         COVERALLS_REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        pipenv pytest --cov=fastutils tests/*
-        pipenv coveralls 
+        pipenv run pytest --cov=fastutils tests/*
+        pipenv run coveralls 
