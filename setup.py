@@ -9,7 +9,7 @@ def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(
-    name = "smarts-utils",
+    name = "smartsutils",
     version = "0.0.1",
     author = "Bruce McIntyre",
     author_email = "bruce.mcintyre@gmail.com",

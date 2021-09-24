@@ -1,1 +1,8 @@
 *.egg-info
+.putest_cache
+.coverage
+.iml
+.idea/
+cov.xml
+Pipfile.lock
+*.pyc
