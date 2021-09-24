@@ -1,5 +1,5 @@
 # fastutils
-[![Build Status](https://github.com/bruskiza/fastutils/actions/workflows/python-app.yml/badge.svg)](https://github.com/bruskiza/fastutils)
+[![Build Status](https://github.com/bruskiza/fastutils/actions/workflows/ci.yml/badge.svg)](https://github.com/bruskiza/fastutils)
 [![Coverage Status](https://coveralls.io/repos/github/bruskiza/fastutils/badge.svg?branch=main)](https://coveralls.io/github/bruskiza/fastutils?branch=main)
 
 This is fastutils.
