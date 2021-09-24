@@ -4,5 +4,5 @@
 .iml
 .idea/
 cov.xml
-Pipfile.lock
+coverage.xml
 *.pyc

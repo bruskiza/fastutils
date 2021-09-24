@@ -13,6 +13,7 @@ pytest-asyncio = "*"
 pytest-subprocess = "*"
 lint = "*"
 flake8 = "*"
+coverage = "*"
 
 [requires]
 python_version = "3.8"
